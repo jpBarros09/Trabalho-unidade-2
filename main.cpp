@@ -1,7 +1,7 @@
 #include <iostream>
 #include <fstream>
 #include <string>
-#include "scultor.h"
+#include "sculptor.h"
 using namespace std;
 
 int main()
