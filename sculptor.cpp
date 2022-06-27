@@ -1,4 +1,4 @@
-#include "scultor.h"
+#include "sculptor.h"
 #include <iostream>
 #include <fstream>
 #include <string>
