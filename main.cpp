@@ -19,11 +19,6 @@ int main()
 
 
 
-
-
-
-
-  
     Sculptor lobo(40,60,40);
    //corpo
    lobo.setColor(79, 79, 79, 1);
