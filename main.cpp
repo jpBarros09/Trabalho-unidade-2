@@ -6,6 +6,24 @@ using namespace std;
 
 int main()
 {
+  // teste de esfera e elipisoide
+  Sculptor functions(80,60,40);
+   functions.setColor(1, 0, 1, 1);
+   functions.putEllipsoid(40, 15, 15, 10, 10, 15);
+   functions.putSphere(10, 10, 30, 10);
+   functions.cutEllipsoid(20, 15, 15, 20, 5, 10);
+   functions.cutSphere(7, 10, 30, 7);
+        functions.writeOFF((char*)"funções.off");
+
+
+
+
+
+
+
+
+
+  
     Sculptor lobo(40,60,40);
    //corpo
    lobo.setColor(79, 79, 79, 1);
