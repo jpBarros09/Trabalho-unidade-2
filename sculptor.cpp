@@ -30,7 +30,7 @@ Sculptor::~Sculptor(){
     for(int i = 0; i < nx; i++){
         for (int j = 0; j < ny; j++){
                delete[] v[i][j];
-          }
+            }
         }
         for (int i=0; i <nx; i++){
             delete[] v[i];
