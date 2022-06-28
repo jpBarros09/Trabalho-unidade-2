@@ -36,3 +36,4 @@ public:
 
   void writeOFF(char* filename);
 };
+
